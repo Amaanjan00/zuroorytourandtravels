@@ -6,14 +6,14 @@ function Footer() {
         <footer>
         <div className="flex px-7 flex-col justify-center items-center gap-7 bg-amber-50 py-10">
 
-            <h1 className="text-2xl text-center px-5 text-amber-600 font-medium">Get exclusive access to new products, deals & surprises.</h1>
+            <h1 className="text-2xl text-center px-5 text-amber-600 font-medium">Get exclusive updates to offers, deals & surprises.</h1>
 
             <div className="bg-white shadow-[0_10px_50px_rgba(194,_103,_0,_0.8)] w-full lg:w-[30vw] h-12 flex justify-between rounded-[7px]">
                 <input type="text" className="p-2 h-full w-full font-medium" placeholder="Enter your email to register" />
                 <button className="bg-amber-600 text-white px-5 m-1 rounded-[5px]">Submit</button>
             </div>
 
-            <p className="text-[12px] text-center mt-7 text-gray-500 font-medium">You are signing up to receive product updates and newsletters. <br /> By signing up, you are consenting to our privacy policy but you can opt out at any time.</p>
+            <p className="text-[12px] text-center mt-7 text-gray-500 font-medium">You are signing up to receive updates and newsletters. <br /> By signing up, you are consenting to our privacy policy but you can opt out at any time.</p>
         </div>
 
         <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-25 px-10 lg:px-20 py-15 bg-gray-800 text-gray-400">
