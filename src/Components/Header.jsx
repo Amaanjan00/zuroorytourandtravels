@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from '../assets/logo/headerlogo.png'
+import { Link } from 'react-router'
 
 function Header() {
 
@@ -10,14 +11,14 @@ function Header() {
         <div className='hidden lg:block sticky top-0 bg-white z-99999'>
             <header className='flex justify-between items-center px-20 py-4 shadow-2xl'>
                 <div className='w-40'>
-                    <img className='object-contain' src={logo} alt="" />
+                    <Link to='/'><img className='object-contain' src={logo} alt="" /></Link>
                 </div>
                 <nav>
                     <ul className='flex text-gray-500 text-[16px] gap-10 uppercase'>
-                        <li><a href=""></a>Home</li>
-                        <li><a href=""></a>Umrah Packages</li>
-                        <li><a href=""></a>Contact</li>
-                        <li><a href=""></a>About</li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
+                        <li><Link to='/about'>About Us</Link></li>
+                        <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
                     </ul>
                 </nav>
                 <div className=''>
@@ -31,7 +32,7 @@ function Header() {
             <header className='flex justify-between items-center px-10 py-4 shadow-2xl'>
 
                 <div className='w-35'>
-                    <img className='object-contain' src={logo} alt="" />
+                    <Link to='/'><img className='object-contain' src={logo} alt="" /></Link>
                 </div>
 
                 <div className=''>
@@ -52,7 +53,7 @@ function Header() {
                         <div className='flex justify-between pl-10'>
                             <img className='w-50 object-contain' src={logo} alt="" />
                             <div className='p-10'>
-                                <svg onClick={() => setHead(false)} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" fill='#d6b657' height="50" viewBox="0 0 50 50">
+                                <svg onClick={() => setHead(false)} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" fill='#d6b657' height="40" viewBox="0 0 50 50">
                                     <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
                                 </svg>
                             </div>
@@ -61,10 +62,14 @@ function Header() {
                         <div className='bg-white/50 backdrop-blur-2xl rounded-2xl shadow-2xl m-10'>
                             <nav className='p-10'>
                                 <ul className='flex flex-col text-gray-500 text-[18px] font-bold gap-10 uppercase'>
-                                    <li><a href=""></a>Home</li>
-                                    <li><a href=""></a>Umrah Packages</li>
-                                    <li><a href=""></a>Contact</li>
-                                    <li><a href=""></a>About</li>
+                                    <li><Link to='/'>Home</Link></li>
+                                    <li><Link to='/contact'>Contact</Link></li>
+                                    <li><Link to='/about'>About Us</Link></li>
+                                    <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
+                                    <li><a href="tel:+919007167409">Customer Care</a></li>
+                                    <li><Link to="/refund-policy">Refund Policy</Link></li>
+                                    <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Poilicy</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -79,7 +84,7 @@ function Header() {
                         <div>
                             <div className="flex flex-col gap-1">
                                 <p>Got a question? Contact: </p>
-                                <a className="text-yellow-500" href="">zuroorytt@gmail.com</a>
+                                <a className="text-yellow-500" href="mailto:zuroorytt@gmail.com">zuroorytt@gmail.com</a>
                             </div>
 
                             <p>All rights reserved &copy; 2025 Zuroory Tour and Travels</p>

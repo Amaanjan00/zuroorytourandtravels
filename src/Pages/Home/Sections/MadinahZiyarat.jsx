@@ -1,7 +1,7 @@
-import masjidnabawi from './assets/masjidnabawi.jpeg'
-import baqi from './assets/baqi.jpg'
-import masjidquba from './assets/masjidquba.jpg'
-import uhud from './assets/uhud.jpg'
+import masjidnabawi from '../assets/masjidnabawi.jpeg'
+import baqi from '../assets/baqi.jpg'
+import masjidquba from '../assets/masjidquba.jpg'
+import uhud from '../assets/uhud.jpg'
 
 function MakkahZiyarat() {
   return (

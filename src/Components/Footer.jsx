@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import logo from '../assets/logo/headerlogo.png'
 
 function Footer() {
@@ -38,19 +39,19 @@ function Footer() {
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>HELP</h1>
                     <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
-                        <li><a href="">Customer Care</a></li>
-                        <li><a href="">Shipping & Returns</a></li>
-                        <li><a href="">Terms & Conditions</a></li>
-                        <li><a href="">Privacy Poilicy</a></li>
+                        <li><a href="tel:+919007167409">Customer Care</a></li>
+                        <li><Link to="/refund-policy">Refund Policy</Link></li>
+                        <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                        <li><Link to="/privacy-policy">Privacy Poilicy</Link></li>
                     </ul>
                 </div>
                 
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>ABOUT</h1>
                     <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">License & Registration</a></li>
+                        <li><Link to='/contact'>Contact Us</Link></li>
+                        <li><Link to='/about'>About Us</Link></li>
+                        <li><Link to=''>License & Registration</Link></li>
                     </ul>
                 </div>
             </div>

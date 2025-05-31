@@ -1,4 +1,4 @@
-import video from './assets/headervideo.mp4'
+import video from '../assets/headervideo.mp4'
 
 function Video() {
   return (

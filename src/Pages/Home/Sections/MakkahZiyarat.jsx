@@ -1,8 +1,8 @@
-import cavehira from './assets/cavehira.jpg'
-import cavethawr from './assets/cavethawr.jpg'
-import masjidaisha from './assets/masjidaisha.jpg'
-import mina from './assets/mina.jpg'
-import arafat from './assets/arafat.jpg'
+import cavehira from '../assets/cavehira.jpg'
+import cavethawr from '../assets/cavethawr.jpg'
+import masjidaisha from '../assets/masjidaisha.jpg'
+import mina from '../assets/mina.jpg'
+import arafat from '../assets/arafat.jpg'
 
 function MakkahZiyarat() {
   return (

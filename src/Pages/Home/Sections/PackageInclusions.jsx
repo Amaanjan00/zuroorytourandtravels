@@ -1,11 +1,12 @@
-import hotel from './assets/icons/1.png'
-import flight from './assets/icons/2.png'
-import visa from './assets/icons/3.png'
-import zamzam from './assets/icons/4.png'
-import food from './assets/icons/5.png'
-import ziyarat from './assets/icons/6.png'
-import transportation from './assets/icons/7.png'
-import umrahkit from './assets/icons/8.png'
+import hotel from '../assets/icons/1.png'
+import flight from '../assets/icons/2.png'
+import visa from '../assets/icons/3.png'
+import zamzam from '../assets/icons/4.png'
+import food from '../assets/icons/5.png'
+import ziyarat from '../assets/icons/6.png'
+import transportation from '../assets/icons/7.png'
+import umrahkit from '../assets/icons/8.png'
+
 
 function Docsrequired() {
   return (

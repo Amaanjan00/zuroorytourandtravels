@@ -1,6 +1,6 @@
-import pic1 from './assets/umrah1.png'
-import pic2 from './assets/umrah2.png'
-import pic3 from './assets/umrah3.png'
+import pic1 from '../assets/umrah1.png'
+import pic2 from '../assets/umrah2.png'
+import pic3 from '../assets/umrah3.png'
 
 function Information() {
   return (

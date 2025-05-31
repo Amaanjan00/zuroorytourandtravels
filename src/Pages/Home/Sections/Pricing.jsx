@@ -1,4 +1,3 @@
-import banner from './assets/banner.jpg'
 
 function Pricing() {
   return (
