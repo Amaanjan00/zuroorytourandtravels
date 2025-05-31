@@ -30,7 +30,7 @@ function Aboutus() {
           <section className='flex flex-col gap-3'>
             <h2 className='text-3xl font-bold'>What We Offer</h2>
             <p>We provide a full suite of Umrah-related services designed to make your experience easy and worry-free:</p>
-            <ul className='list-disc list-inside'>
+            <ul className='list-disc list-outside px-5'>
               <li>Tailored Umrah Packages</li>
 
               <li>Visa Assistance</li>
@@ -52,7 +52,7 @@ function Aboutus() {
 
           <section className='flex flex-col gap-3'>
             <h2 className='text-3xl font-bold'>Why Choose Zuroory</h2>
-            <ul className='list-disc list-inside'>
+            <ul className='list-disc list-outside px-5'>
               <li>Experienced Team with deep knowledge of religious travel</li>
 
               <li>Trusted Network of service providers in Saudi Arabia</li>
