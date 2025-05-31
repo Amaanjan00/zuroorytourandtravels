@@ -17,11 +17,11 @@ function Footer() {
         </div>
 
         <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-25 px-10 lg:px-20 py-15 bg-gray-800 text-gray-400">
-            <div className='flex lg:flex-row flex-col gap-25'>
+            <div className='flex lg:flex-row flex-col gap-25 text-2xl'>
 
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>OUR SERVICES</h1>
-                    <ul className='items-center lg:items-start flex flex-col'>
+                    <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
                         <li><a href="">Umrah Packages</a></li>
                         <li><a href="">Flight Booking</a></li>
                         <li><a href="">Visa Assistance</a></li>
@@ -37,7 +37,7 @@ function Footer() {
 
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>HELP</h1>
-                    <ul className='items-center lg:items-start flex flex-col'>
+                    <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
                         <li><a href="">Customer Care</a></li>
                         <li><a href="">Shipping & Returns</a></li>
                         <li><a href="">Terms & Conditions</a></li>
@@ -47,7 +47,7 @@ function Footer() {
                 
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>ABOUT</h1>
-                    <ul className='items-center lg:items-start flex flex-col'>
+                    <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">License & Registration</a></li>

@@ -6,11 +6,13 @@ import MakkahZiyarat from "./Pages/Home/MakkahZiyarat"
 import MadinahZiyarat from "./Pages/Home/MadinahZiyarat"
 import Pricing from "./Pages/Home/Pricing"
 import Footer from "./Components/Footer"
+import Whatsapp from "./Components/Whatsapp"
 
 function App() {
 
   return (
     <>
+      <Whatsapp/>
       <Header/>
       <Video/>
       <PackageInclusions/>
