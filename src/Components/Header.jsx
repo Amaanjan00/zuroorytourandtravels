@@ -5,19 +5,20 @@ import { Link } from 'react-router'
 function Header() {
 
     const [head, setHead] = useState(false)
+    const handleClick = () => {window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })};
 
   return (
     <>
         <div className='hidden lg:block sticky top-0 bg-white z-99999'>
             <header className='flex justify-between items-center px-20 py-4 shadow-2xl'>
                 <div className='w-40'>
-                    <Link to='/'><img className='object-contain' src={logo} alt="" /></Link>
+                    <Link onClick={handleClick} to='/'><img className='object-contain' src={logo} alt="" /></Link>
                 </div>
                 <nav>
                     <ul className='flex text-gray-500 text-[16px] gap-10 uppercase'>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
-                        <li><Link to='/about'>About Us</Link></li>
+                        <li onClick={handleClick}><Link to='/'>Home</Link></li>
+                        <li onClick={handleClick}><Link to='/contact'>Contact</Link></li>
+                        <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
                         <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
                     </ul>
                 </nav>
@@ -32,7 +33,7 @@ function Header() {
             <header className='flex justify-between items-center px-10 py-4 shadow-2xl'>
 
                 <div className='w-35'>
-                    <Link to='/'><img className='object-contain' src={logo} alt="" /></Link>
+                    <Link onClick={handleClick} to='/'><img className='object-contain' src={logo} alt="" /></Link>
                 </div>
 
                 <div className=''>
@@ -62,14 +63,14 @@ function Header() {
                         <div className='bg-white/50 backdrop-blur-2xl rounded-2xl shadow-2xl m-10'>
                             <nav className='p-10'>
                                 <ul className='flex flex-col text-gray-500 text-[18px] font-bold gap-10 uppercase'>
-                                    <li><Link to='/'>Home</Link></li>
-                                    <li><Link to='/contact'>Contact</Link></li>
-                                    <li><Link to='/about'>About Us</Link></li>
+                                    <li onClick={handleClick}><Link to='/'>Home</Link></li>
+                                    <li onClick={handleClick}><Link to='/contact'>Contact</Link></li>
+                                    <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
                                     <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
                                     <li><a href="tel:+919007167409">Customer Care</a></li>
-                                    <li><Link to="/refund-policy">Refund Policy</Link></li>
-                                    <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
-                                    <li><Link to="/privacy-policy">Privacy Poilicy</Link></li>
+                                    <li onClick={handleClick}><Link to="/refund-policy">Refund Policy</Link></li>
+                                    <li onClick={handleClick}><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                                    <li onClick={handleClick}><Link to="/privacy-policy">Privacy Poilicy</Link></li>
                                 </ul>
                             </nav>
                         </div>

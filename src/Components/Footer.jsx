@@ -2,6 +2,9 @@ import { Link } from 'react-router'
 import logo from '../assets/logo/headerlogo.png'
 
 function Footer() {
+
+     const handleClick = () => {window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })};
+
   return (
     <>
         <footer>
@@ -40,18 +43,18 @@ function Footer() {
                     <h1 className='text-yellow-500'>HELP</h1>
                     <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
                         <li><a href="tel:+919007167409">Customer Care</a></li>
-                        <li><Link to="/refund-policy">Refund Policy</Link></li>
-                        <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
-                        <li><Link to="/privacy-policy">Privacy Poilicy</Link></li>
+                        <li onClick={handleClick}><Link to="/refund-policy">Refund Policy</Link></li>
+                        <li onClick={handleClick}><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                        <li onClick={handleClick}><Link to="/privacy-policy">Privacy Poilicy</Link></li>
                     </ul>
                 </div>
                 
                 <div className="gap-3 flex lg:items-start items-center flex-col">
                     <h1 className='text-yellow-500'>ABOUT</h1>
                     <ul className='items-center lg:items-start flex flex-col gap-1 text-[20px]'>
-                        <li><Link to='/contact'>Contact Us</Link></li>
-                        <li><Link to='/about'>About Us</Link></li>
-                        <li><Link to=''>License & Registration</Link></li>
+                        <li onClick={handleClick}><Link to='/contact'>Contact Us</Link></li>
+                        <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
+                        <li onClick={handleClick}><Link to=''>License & Registration</Link></li>
                     </ul>
                 </div>
             </div>
