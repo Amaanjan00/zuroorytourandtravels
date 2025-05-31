@@ -12,9 +12,9 @@ function MakkahZiyarat() {
             <h1 className='uppercase text-3xl font-bold text-yellow-500'>Ziyarat locations in Madinah</h1>
         </div>
 
-        <div className='flex gap-8 overflow-x-auto snap-x snap-mandatory scrollbar-hide mb-5'>
+        <div className='flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide mb-5'>
 
-            <div className='relative flex shrink-0 ml-10'>
+            <div className='relative flex shrink-0 ml-5'>
                 <img className='h-90 w-70 object-cover rounded-3xl' src={masjidnabawi} alt="" />
                 <div className='absolute inset-x-0 bottom-0 p-5 bg-black/50 rounded-b-3xl'>
                     <h1 className='text-4xl font-extrabold text-white'>Masjid Nabawi</h1>
