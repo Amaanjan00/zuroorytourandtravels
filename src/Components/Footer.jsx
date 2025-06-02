@@ -70,7 +70,7 @@ function Footer() {
                 <a className="text-yellow-500" href="">zuroorytt@gmail.com</a>
             </div>
 
-            <p>All rights reserved &copy; 2025 Zuroory Tour and Travels</p>
+            <p>All rights reserved &copy; 2025 Zuroory tour and travels</p>
         </div>
     </footer> 
     </>
