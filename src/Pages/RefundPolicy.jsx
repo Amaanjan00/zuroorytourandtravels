@@ -28,9 +28,7 @@ function RefundPolicy() {
         <section className='flex flex-col gap-3'>
             <h2 className='text-3xl font-bold'>2. Refund Eligibility</h2>
             <ul className='list-disc list-outside px-5'>
-                <li><b>30+ days before departure:</b> 80% refund (excluding non-refundable charges)</li>
-                <li><b>15–29 days before departure:</b> 50% refund</li>
-                <li><b>Less than 15 days:</b> No refund</li>
+                <li><b>Within 7-days of the booking</b> 80% Refundable</li>
             </ul>
         </section>
 
