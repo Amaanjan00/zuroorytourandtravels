@@ -19,7 +19,7 @@ function Header() {
                         <li onClick={handleClick}><Link to='/'>Home</Link></li>
                         <li onClick={handleClick}><Link to='/contact'>Contact</Link></li>
                         <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
-                        <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
+                        <li><a href="https://wa.me/message/N6HTXL2EPXA2N1">Book You Umrah Now</a></li>
                     </ul>
                 </nav>
                 <div className=''>
@@ -66,7 +66,7 @@ function Header() {
                                     <li onClick={handleClick}><Link to='/'>Home</Link></li>
                                     <li onClick={handleClick}><Link to='/contact'>Contact</Link></li>
                                     <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
-                                    <li><a href="tel:+919007167409">Book You Umrah Now</a></li>
+                                    <li><a href="https://wa.me/message/N6HTXL2EPXA2N1">Book You Umrah Now</a></li>
                                     <li><a href="tel:+919007167409">Customer Care</a></li>
                                     <li onClick={handleClick}><Link to="/refund-policy">Refund Policy</Link></li>
                                     <li onClick={handleClick}><Link to="/terms-and-conditions">Terms & Conditions</Link></li>

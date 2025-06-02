@@ -49,7 +49,7 @@ function Pricing() {
               <h1 className='text-5xl font-bold px-2 py-4'>₹1,09,999</h1>
               <p className='text-2xl font-medium text-gray-500'>INR</p>
             </div>
-            <a className='bg-yellow-500 py-2 font-bold text-2xl rounded-4xl' href="tel:+919007167409"><button>Inquire Now</button></a>
+            <a className='bg-yellow-500 py-2 font-bold text-2xl rounded-4xl' href="https://wa.me/message/N6HTXL2EPXA2N1"><button>Inquire Now</button></a>
             <p>*The pricing for customised packages will be priced according to the itinerary</p>
           </div>
 
