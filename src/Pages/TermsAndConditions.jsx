@@ -11,7 +11,7 @@ function TermsAndConditions() {
             <h1 className='text-yellow-500 text-5xl font-bold'>Terms and Conditions</h1>
 
             <section>
-                <p><b>Effective date:</b></p>
+                <p><b>Effective date: 02/06/2025</b></p>
                 <br />
                 <p>Welcome to <b>Zuroory Tour and Travels</b>. By booking a package or using our services, you agree to the following terms and conditions. Please read them carefully before proceeding with any transactions.</p>
             </section>

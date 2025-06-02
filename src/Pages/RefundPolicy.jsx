@@ -11,7 +11,7 @@ function RefundPolicy() {
         <h1 className='text-yellow-500 text-5xl font-bold'>Refund Policy</h1>
 
         <section>
-            <p><b>Effective date:</b></p>
+            <p><b>Effective date: 02/06/2025</b></p>
             <br />
             <p>At <b>Zuroory Tour and Travels</b>, we strive to provide all our customers with the best possible service and clarity when it comes to cancellations and refunds. This policy outlines the conditions under which refunds may be granted and the process for requesting them.</p>
         </section>
