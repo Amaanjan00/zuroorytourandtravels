@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 
@@ -37,9 +38,7 @@ function TermsAndConditions() {
                     <li>Refunds (if applicable) will be processed based on how early the cancellation is made: 
                         <span>
                         <ul>
-                            <li>30+ days before travel: 80% refund (excluding non-refundable visa/airline fees)</li>
-                            <li>15–29 days before travel: 50% refund</li>
-                            <li>Less than 15 days: No refund</li>
+                            <li className='text-yellow-500'><Link to='/refund-policy'>Refund Policy</Link></li>
                         </ul>
                         </span>
                     </li>

@@ -28,7 +28,7 @@ function RefundPolicy() {
         <section className='flex flex-col gap-3'>
             <h2 className='text-3xl font-bold'>2. Refund Eligibility</h2>
             <ul className='list-disc list-outside px-5'>
-                <li><b>Within 7-days of the booking</b> 80% Refundable</li>
+                <li><b>Within 7-days of the booking</b> 100% Refundable</li>
             </ul>
         </section>
 
