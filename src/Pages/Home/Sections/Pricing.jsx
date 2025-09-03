@@ -46,7 +46,7 @@ function Pricing() {
           <div className='p-8 m-3 bg-yellow-50 rounded-2xl text-center flex flex-col gap-5 justify-center'>
             <h2 className='text-2xl text-gray-500 font-bold'>Price starts at only</h2>
             <div className='flex items-baseline justify-center'>
-              <h1 className='text-5xl font-bold px-2 py-4'>₹99,999</h1>
+              <h1 className='text-5xl font-bold px-2 py-4'>₹1,09,999</h1>
               <p className='text-2xl font-medium text-gray-500'>INR</p>
             </div>
             <a className='bg-yellow-500 py-2 font-bold text-2xl rounded-4xl' href="https://wa.me/message/N6HTXL2EPXA2N1"><button>Inquire Now</button></a>
